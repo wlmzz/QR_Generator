@@ -1,0 +1,24 @@
+<div id="qrContainer"></div>
+<script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+<script>
+  const qrCode = new QRCodeStyling({
+    width: 300,
+    height: 300,
+    type: "canvas",
+    data: "1394nf9en",
+    image: "logo.png",
+    dotsOptions: {
+      color: "#000000",
+      type: "rounded"
+    },
+    backgroundOptions: {
+      color: "#ffffff"
+    },
+    imageOptions: {
+      crossOrigin: "anonymous",
+      margin: 10
+    }
+  });
+
+  qrCode.append(document.getElementById("qrContainer"));
+</script>
