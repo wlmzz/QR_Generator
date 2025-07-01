@@ -29,7 +29,9 @@ No API keys, no hidden costs — everything runs **client-side** using an open-s
 
 Add it to your public files or via an HTML Embed block:
 
+# Powered by NRC Company
+
+
 ```html
 <script src="https://cdn.jsdelivr.net/npm/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
 
-# Powered by NRC Company
